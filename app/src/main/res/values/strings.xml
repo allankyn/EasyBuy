@@ -1,0 +1,123 @@
+<resources>
+    <!-- App Naming -->
+    <string name="app_name">買乜</string>
+    <string name="title_activity_buy_list">購物清單</string>
+    <string name="title_activity_transaction_input">加入購物清單</string>
+    <string name="title_activity_attribute_input">分類</string>
+    <string name="title_activity_item_input">貨品</string>
+    <string name="title_activity_setting">備份</string>
+    <string name="title_activity_payment">付款方式</string>
+    <string name="title_activity_payment_input">付款方式</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+
+    <!-- Button Name -->
+    <string name="action_settings">備份</string>
+    <string name="action_search">搵</string>
+    <string name="action_save">儲存</string>
+    <string name="action_buy">買</string>
+    <string name="action_edit">修改</string>
+    <string name="action_rename">改名</string>
+    <string name="action_add">新增</string>
+    <string name="action_update">更新</string>
+    <string name="action_remove">刪除</string>
+    <string name="action_import">由備份回復</string>
+    <string name="action_export">備份</string>
+    <string name="action_report">匯出報告</string>
+    <string name="action_confirm">肯定</string>
+    <string name="action_cancel">咪住</string>
+
+    <string name="action_input_buy_list">加入購物清單</string>
+    <string name="action_input_category">分類</string>
+
+    <!-- Text Field -->
+    <string name="field_category_name">分類名稱</string>
+    <string name="field_item_name">貨品名稱</string>
+    <string name="field_shop_name">店鋪</string>
+    <string name="field_price">價錢</string>
+    <string name="field_payment">付款方式</string>
+    <string name="field_transaction_date">日期</string>
+    <string name="field_has_buy">買咗</string>
+    <string name="field_add_category_name">新增分類名稱</string>
+    <string name="field_add_item_name">新增貨品名稱</string>
+    <string name="field_repeat_times">重複次數</string>
+    <string name="field_cutoff_day">截數</string>
+
+    <!-- Alert Message -->
+    <string name="alert_repeat_too_many">最多重複十次</string>
+    <string name="alert_no_empty_name">需輸入名稱</string>
+    <string name="alert_reminder">你今日有嘢要買</string>
+    <string name="title_confirm_rename">改名</string>
+    <string name="title_confirm_delete">刪除</string>
+    <string name="alert_confirm_delete">確認刪除?</string>
+    <string name="alert_confirm_restore">回復會將現有記錄刪除,確定?</string>
+    <string name="title_confirm_exit">離開</string>
+    <string name="alert_confirm_exit">宜家離開?</string>
+    <string name="common_yes">是</string>
+    <string name="common_no">否</string>
+    <string name="common_ok">好的</string>
+    <string name="common_year">年</string>
+    <string name="common_month">月</string>
+    <string name="common_day">日</string>
+    <string name="repeat">重複</string>
+    <string name="cutoff">截數日</string>
+    <string name="total_expense">總消費:$%.2f</string>
+    <string name="paid_expense">已消費:$%.2f</string>
+
+    <string name="guide_input_transaction">按右上角【新增】選擇貨物加入購物清單</string>
+    <string name="repeat_daily">每日</string>
+    <string name="repeat_weekly">每個%s</string>
+    <string name="repeat_monthly">每個月%d號</string>
+
+    <!-- App Setting -->
+    <string name="app_setting_user_id">SETTING_USER_ID</string>
+    <string name="app_setting_with_ad">SETTING_WITH_AD</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Ads -->
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111 </string>
+    <string name="banner_ad_unit_id_buy_list">ca-app-pub-9271300274255411/6249563882</string>
+    <string name="banner_ad_unit_id_transaction">ca-app-pub-9271300274255411/7248619087</string>
+    <string name="banner_ad_unit_id_category">ca-app-pub-9271300274255411/4295152686</string>
+    <string name="banner_ad_unit_id_item">ca-app-pub-9271300274255411/5771885882</string>
+    <string name="banner_ad_unit_id_setting">ca-app-pub-9271300274255411/5971545486</string>
+    <string name="banner_ad_unit_id_payment">ca-app-pub-9271300274255411/3323311083</string>
+    <string name="banner_ad_unit_id_payment_input">ca-app-pub-9271300274255411/4660443488</string>
+
+
+
+    <!--
+        <string name="edit_message">Enter a message</string>
+        <string name="button_send">Send</string>
+        <string name="title_activity_display_message">My Message</string>
+        <string name="title">My Application</string>
+        <string name="hello_world">Hello World!</string>
+        -->
+
+    <string-array name="months_array">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+
+    <string-array name="weekdays_array">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akproject.easybuy.MainActivity">
+<!--
+     <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+        <item android:id="@+id/action_input_buy_list"
+            android:orderInCategory="110"
+            android:title="@string/action_input_buy_list"
+            app:showAsAction="never|collapseActionView" />
+-->
+    <item android:id="@+id/action_input_category"
+        android:orderInCategory="100"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/action_input_payment"
+        android:orderInCategory="110"
+        android:title="@string/field_payment"
+        app:showAsAction="never|collapseActionView" />
+
+    <item android:id="@+id/action_settings"
+        android:orderInCategory="120"
+        android:title="@string/action_settings"
+        app:showAsAction="never|collapseActionView" />
+    <!--
+            <item android:id="@+id/action_export"
+                android:orderInCategory="120"
+                android:title="@string/action_export"
+                app:showAsAction="never|collapseActionView" />
+            <item android:id="@+id/action_import"
+                android:orderInCategory="130"
+                android:title="@string/action_import"
+                app:showAsAction="never|collapseActionView" />
+    -->
+    </menu>
